@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Inventario.Dashboard"
+    BackgroundColor="{StaticResource fondo}"
+    NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Grid>
+            
+            <Frame  Grid.Row="0" Grid.Column="0" BackgroundColor="Transparent" Margin="20" Padding="20" HasShadow="False">
+                <StackLayout Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" Spacing="5">
+                <ImageButton Source="inventario.png" Clicked="Inventarios_Clicked"/>
+                <Label Text="Inventario" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            </Frame>
+            <Frame Grid.Row="0" Grid.Column="1" BackgroundColor="Transparent" Margin="20" Padding="20" HasShadow="False">
+                <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="5">
+                <ImageButton Source="factura.png" Clicked="Factura_Clicked"/>
+                <Label Text="Facuturacion" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="0" BackgroundColor="Transparent" Margin="20" Padding="20" HasShadow="False">
+                <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="5">
+                <ImageButton Source="reporte.png" Clicked="Reporte_Clicked"/>
+                <Label Text="Reporte" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            </Frame>
+            <Frame Grid.Row="1" Grid.Column="1" BackgroundColor="Transparent" Margin="20" Padding="20" HasShadow="False">
+                <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="5">
+                <ImageButton Source="entrega.png" Clicked="Entrega_Clicked"/>
+                <Label Text="Recepcion" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="0" BackgroundColor="Transparent" Margin="20" Padding="20" HasShadow="False">
+                <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="5">
+                <ImageButton Source="proveedor.png" Clicked="Proveedores_Clicked"/>
+                <Label Text="Proveedor" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            </Frame>
+            <Frame Grid.Row="2" Grid.Column="1" BackgroundColor="Transparent" Margin="20" Padding="20" HasShadow="False">
+                <StackLayout Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" Spacing="5">
+                <ImageButton Source="salida.png" Clicked="Salir_Clicked"/>
+                <Label Text="Salir" HorizontalTextAlignment="Center"/>
+            </StackLayout>
+            </Frame>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>
+

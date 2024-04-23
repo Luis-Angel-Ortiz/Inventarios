@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Page:PopupPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:Page="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    xmlns:Animations="clr-namespace:Rg.Plugins.Popup.Animations;assembly=Rg.Plugins.Popup"
+    HeightRequest="400"
+    x:Class="Inventario.modalPage"
+   >
+    <Page:PopupPage.Animation>
+        <Animations:ScaleAnimation PositionIn="Center" PositionOut="Center" EasingIn="SinIn" EasingOut="SpringOut" HasBackgroundAnimation="True"/>
+    </Page:PopupPage.Animation>
+    <Page:PopupPage.Content>
+      
+  <StackLayout
+      VerticalOptions="CenterAndExpand"
+      HorizontalOptions="CenterAndExpand"
+      Margin="40"
+      >
+
+        <Frame CornerRadius="10">
+            <StackLayout>
+                 <Entry x:Name="cantidadTextoEntryXaml" Placeholder="Nombre de producto" PlaceholderColor="Black" TextColor="Black"/>
+                 <Entry x:Name="cantidadNumericaEntryXaml" Placeholder="Cantidad" PlaceholderColor="Black" TextColor="Black" Keyboard="Numeric"/>
+                 <!-- Botón Aceptar -->
+                 <Button Text="Aceptar" Clicked="Aceptar_Clicked" TextColor="Black" BackgroundColor="Transparent"/>
+            </StackLayout>
+
+        </Frame>
+  </StackLayout>
+ 
+  
+    </Page:PopupPage.Content>
+</Page:PopupPage>
+

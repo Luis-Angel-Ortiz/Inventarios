@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{BCE31A48-589C-4BA9-8441-47EF0CE0B3AD}|Default">
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.45sow8gisczxibpj" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Inventario" expanded="True">
+            <Node name="Inventario" expanded="True">
+              <Node name="Proveedores.xaml" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Inventario.Android PreferredExecutionTarget="Android.45sow8gisczxibpj" />
+  <MonoDevelop.Ide.ItemProperties.Inventario.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
+</Properties>

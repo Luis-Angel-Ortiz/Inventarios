@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6qUCJ8kBrE3na6q7AYehz0OVZuGQ0nSZBP0WYS8KEOgTRcs8/4JC+9rypojTWln60bSKBhKXEdnhdD+HqhAfTw==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Desktop/Inventario/Inventario/Inventario.iOS/Inventario.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/rg.plugins.popup/2.1.0/rg.plugins.popup.2.1.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.forms/5.0.0.2662/xamarin.forms.5.0.0.2662.nupkg.sha512"
+  ],
+  "logs": []
+}

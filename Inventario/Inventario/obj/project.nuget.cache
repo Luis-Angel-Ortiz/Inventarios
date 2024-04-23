@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "JKSGGado/E06pjFoW5OqtKlLB2fHQ3xjRxZcRHxyRXd9AtftuesA2ffPDHlBNCogbAW/cw6Himnx9h2IPXFotw==",
+  "success": true,
+  "projectFilePath": "/Users/mac/Desktop/Inventario/Inventario/Inventario/Inventario.csproj",
+  "expectedPackageFiles": [
+    "/Users/mac/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/Users/mac/.nuget/packages/rg.plugins.popup/2.1.0/rg.plugins.popup.2.1.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.essentials/1.8.1/xamarin.essentials.1.8.1.nupkg.sha512",
+    "/Users/mac/.nuget/packages/xamarin.forms/5.0.0.2662/xamarin.forms.5.0.0.2662.nupkg.sha512"
+  ],
+  "logs": []
+}
