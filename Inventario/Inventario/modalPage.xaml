@@ -28,8 +28,6 @@
 
         </Frame>
   </StackLayout>
- 
-  
     </Page:PopupPage.Content>
 </Page:PopupPage>
 

@@ -1,25 +1,37 @@
-﻿<Properties StartupConfiguration="{BCE31A48-589C-4BA9-8441-47EF0CE0B3AD}|Default">
-  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.45sow8gisczxibpj" />
+﻿<Properties StartupConfiguration="{BCE31A48-589C-4BA9-8441-47EF0CE0B3AD}|Default" GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.45sow8gisczxibpj" />
+  <MonoDevelop.Ide.ItemProperties.Inventario.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Inventario.Android PreferredExecutionTarget="Android.45sow8gisczxibpj" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inventario/Inventario/Registro.xaml">
+    <Files>
+      <File FileName="Inventario/Inventario/Login.xaml" Line="7" Column="5" IsPinned="True" />
+      <File FileName="Inventario/Inventario/Entrega.xaml" Line="10" Column="19" />
+      <File FileName="Inventario/Inventario/Proveedores.xaml" Line="55" Column="1" />
+      <File FileName="Inventario/Inventario/Registro.xaml" Line="9" Column="64" />
+      <File FileName="Inventario/Inventario/Registro.xaml.cs" Line="13" Column="4" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Inventario" expanded="True">
-            <Node name="Inventario" expanded="True">
-              <Node name="Proveedores.xaml" selected="True" />
+            <Node name="Inventario">
+              <Node name="Registro.xaml" selected="True" />
+            </Node>
+            <Node name="Inventario.Android" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Inventario.Android PreferredExecutionTarget="Android.45sow8gisczxibpj" />
-  <MonoDevelop.Ide.ItemProperties.Inventario.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.2.2.0" />
 </Properties>

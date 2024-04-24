@@ -7,6 +7,7 @@
             <Color x:Key="Rojo" >red</Color>
             <Color x:Key="fondo" >#AACB7E</Color>
             <Color x:Key="Gris">#D7D7D7</Color>
+            <Color x:Key="Fondo">#112B47</Color>
 
             <Style x:Key="formulario" TargetType="Entry">
                 <Setter Property="TextColor" Value="White"></Setter>

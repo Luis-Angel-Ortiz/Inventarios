@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using Rg.Plugins.Popup.Services;
 using Xamarin.Forms;
 
 namespace Inventario
@@ -12,8 +12,10 @@ namespace Inventario
 			InitializeComponent ();
 		}
 
-        void AgregarButton_Clicked(System.Object sender, System.EventArgs e)
+        [Obsolete]
+        async void AgregarButton_Clicked(System.Object sender, System.EventArgs e)
         {
+            await PopupNavigation.PushAsync(new ModalRecepcion(), true);
         }
     }
 }

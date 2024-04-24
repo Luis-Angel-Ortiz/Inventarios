@@ -11,6 +11,9 @@ namespace Inventario
 		{
 			InitializeComponent ();
 		}
-	}
+        void registrar_Clicked(System.Object sender, System.EventArgs e)
+        {
+        }
+    }
 }
 

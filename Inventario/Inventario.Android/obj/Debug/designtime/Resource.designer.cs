@@ -20171,22 +20171,25 @@ namespace Inventario.Droid
 			public const int proveedor = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int reporte = 2131165338;
+			public const int registro = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int salida = 2131165339;
+			public const int reporte = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int test_custom_background = 2131165340;
+			public const int salida = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int test_level_drawable = 2131165341;
+			public const int test_custom_background = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int tooltip_frame_dark = 2131165342;
+			public const int test_level_drawable = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int tooltip_frame_light = 2131165343;
+			public const int tooltip_frame_dark = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int tooltip_frame_light = 2131165344;
 			
 			static Drawable()
 			{

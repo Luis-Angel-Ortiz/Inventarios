@@ -3,88 +3,52 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="Inventario.Proveedores"
-    BackgroundColor="{StaticResource fondo}"
+    BackgroundColor="{StaticResource Fondo}"
     NavigationPage.HasNavigationBar="False"
     >
     <ContentPage.Content>
-            <Grid>
+            <StackLayout Padding="30" VerticalOptions="CenterAndExpand">
+                <Label Text="Ingresar nuevos proveedores" FontSize="Title" HorizontalOptions="Center" Margin="0,0,0,40" TextColor="White"/>
+                <!-- Nombre del Proveedor -->
+                <Label Text="Nombre del Proveedor" TextColor="White"/>
+                <Entry Placeholder="Ingrese el nombre del proveedor" x:Name="ProveedorEntry"/>
 
-            <Grid.RowDefinitions>
-                <!-- Fila para el botón -->
-                <RowDefinition Height="Auto" />
-                <!-- Fila para los textos -->
-                <RowDefinition Height="Auto" />
-                <!-- Fila para el título -->
-                <RowDefinition Height="Auto" />
-                <!-- Fila para la tabla -->
-                <RowDefinition Height="*" />
-            </Grid.RowDefinitions>
-            
-            <!-- Botón en la esquina superior derecha -->
-            <StackLayout>
-                <Label Grid.Row="2" Text="Inventario" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="LightGray" TextTransform="Uppercase" FontSize="Large" Margin="30"/>
+                <!-- Categoría de Productos -->
+                <Label Text="Categoría de Productos" TextColor="White"/>
+                <Picker Title="Seleccionar categoría" x:Name="CategoriaPicker" SelectedIndexChanged="CategoriaPicker_SelectedIndexChanged">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Materia Prima</x:String>
+                            <x:String>Productos Terminados</x:String>
+                            <x:String>Servicios</x:String>
+                            <!-- Agrega más opciones según sea necesario -->
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+        
+                <!-- Lista de Productos -->
+                <Label Text="Lista de Productos" TextColor="White"/>
+                <Picker Title="Seleccionar productos" x:Name="ProductosPicker" SelectedIndexChanged="ProductosPicker_SelectedIndexChanged" IsEnabled="False">
+                    <!-- Aquí se agregarán las opciones dinámicamente -->
+                </Picker>
 
+                <!-- Condiciones de Entrega -->
+                <Label Text="Condiciones de Entrega" TextColor="White"/>
+                <Picker Title="Seleccionar condiciones de entrega" x:Name="EntregaPicker">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Entrega Normal</x:String>
+                            <x:String>Entrega Rápida</x:String>
+                            <x:String>Retraso en entrega</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+                <!-- Mostrar selecciones -->
+                <Label Text="Selecciones:" TextColor="White"/>
+                <Label Text="" x:Name="SeleccionLabel" />
+                <Button Text="Guardar" BackgroundColor="{StaticResource Gris}" TextColor="White"/>
             </StackLayout>
-            <StackLayout Grid.Row="0" HorizontalOptions="End" Padding="20">
-                <ImageButton
-                    Source="agregar.png"
-                    Clicked="AgregarButton_Clicked"
-                    WidthRequest="50"
-                    HeightRequest="50"
-                    BackgroundColor="Transparent"/>
-            </StackLayout>
-            
-            <!-- Textos en fila -->
-            <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="20" Spacing="80" BackgroundColor="LightGray">
-                <Label Text="Codigo" />
-                <Label Text="Producto" />
-                <Label Text="Cantidad" />
-            </StackLayout>
-            
-            <!-- Título -->
-            <Label Grid.Row="2" Text="Proveedores" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="LightGray" TextTransform="Uppercase" FontSize="Large" Margin="30"/>
-            <Grid Grid.Row="3" Margin="10" RowSpacing="50">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                    <RowDefinition Height="Auto" />
-                </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-
-                <!-- Contenido de la tabla -->
-                <!-- Fila 1 -->
-                <Label Grid.Row="0" Grid.Column="0" Text="1510" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="0" Grid.Column="1" Text="Papas Sabritas" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="0" Grid.Column="2" Text="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-
-                <!-- Fila 2 -->
-                <Label Grid.Row="1" Grid.Column="0" Text="1510" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="1" Grid.Column="1" Text="Papas Sabritas" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="1" Grid.Column="2" Text="30" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-
-                <!-- Fila 3 -->
-                <Label Grid.Row="2" Grid.Column="0" Text="1510" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="2" Grid.Column="1" Text="Papas Sabritas" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="2" Grid.Column="2" Text="80" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-
-                <!-- Fila 4 -->
-                <Label Grid.Row="3" Grid.Column="0" Text="1519" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="3" Grid.Column="1" Text="Refrescos" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="3" Grid.Column="2" Text="30" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-
-                <!-- Fila 5 -->
-                <Label Grid.Row="4" Grid.Column="0" Text="1519" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="4" Grid.Column="1" Text="Cervezas" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-                <Label Grid.Row="4" Grid.Column="2" Text="20" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" />
-            </Grid>
-           
-        </Grid>
     </ContentPage.Content>
 </ContentPage>
 

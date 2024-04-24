@@ -12,6 +12,7 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/Login.xaml.g.cs
 /Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
 /Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/modalPage.xaml.g.cs
+/Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/ModalRecepcion.xaml.g.cs
 /Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/Proveedores.xaml.g.cs
 /Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/Registro.xaml.g.cs
 /Users/mac/Desktop/Inventario/Inventario/Inventario/obj/Debug/netstandard2.0/Reporte.xaml.g.cs

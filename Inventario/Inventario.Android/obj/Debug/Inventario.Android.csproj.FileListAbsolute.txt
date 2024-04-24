@@ -51,6 +51,7 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/lp/120/jl/files.cache
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/lp/121/jl/files.cache
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/lp/126/jl/files.cache
+/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/R.txt
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/R.cs.flag
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/Inventario.Android.csproj.CoreCompileInputs.cache
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/Inventario.Android.csproj.CopyComplete
@@ -82,7 +83,7 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/res/drawable/proveedor.png
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/res/drawable/salida.png
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/res/drawable/agregar.png
-/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/R.txt
+/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/res/drawable/registro.png
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/uploadflags.txt
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/resolvedassemblies.hash
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/FormsViewGroup.dll
@@ -93,7 +94,6 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/Inventario.pdb
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/Java.Interop.dll
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/Java.Interop.pdb
-/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/machine.config
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/Mono.Android.dll
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/Mono.Android.pdb
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/Mono.Security.dll
@@ -289,6 +289,7 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/AndroidManifest.xml
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/mono/MonoRuntimeProvider.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/mono/JavaInteropTypeManager.java
+/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/assets/machine.config
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/bin/mono.android.jar
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/static.flag
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/__environment__.txt
@@ -337,7 +338,6 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/androidx/transition/R.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/androidx/versionedparcelable/R.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/androidx/viewpager2/R.java
-/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/com/companyname/inventario/R.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/com/google/android/material/R.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/com/google/android/material/snackbar/Snackbar_SnackbarActionClickImplementor.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/crc6414252951f3f66c67/CarouselViewAdapter_2.java
@@ -684,6 +684,7 @@
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/mono/MonoPackageManager_Resources.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/xamarin/essentials/fileProvider.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/bin/packaged_resources
+/Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/src/com/companyname/inventario/R.java
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/compressed_assemblies.arm64-v8a.ll
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/compressed_assemblies.armeabi-v7a.ll
 /Users/mac/Desktop/Inventario/Inventario/Inventario.Android/obj/Debug/android/compressed_assemblies.x86.ll
